@@ -1,0 +1,234 @@
+/* Big tablets to 1200px */
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/* Small tablets to big tablets : from 767px to 1023px */
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .feature-section-sub-title {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box {
+        margin-top: 10px;
+    }
+
+    .step-box:last-child {
+        margin-top: 50px;
+    }
+
+    .work-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .work-step div {
+        height: 50px;
+        width: 50px;
+        line-height: 42px;
+    }
+
+    element {}
+
+    :host .ionicon {
+
+        stroke: currentColor;
+
+    }
+
+    .icon-inner,
+    .ionicon,
+    svg {
+
+        display: block;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .cities-box-icon {
+        font-size: 90%;
+    }
+
+    .plan-price-month {
+        font-size: 250%;
+    }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #contact-form {
+        width: 80%;
+    }
+}
+
+
+/* Smalls phone to small tablets : from 480px to 767px */
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    /*  START MOBILE NAVIGATION  */
+    .logo {
+        height: 60px;
+        margin-top: 25px;
+    }
+
+    .main-nav {
+        position: fixed;
+        width: 100%;
+        top: 4%;
+        left: 0;
+        right: 0;
+        background-color: rgba(51, 51, 51, 0.90);
+        height: 0;
+        overflow: hidden;
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .main-nav li {
+        display: block;
+        margin: 0 0 0 4%;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border-bottom: 0;
+        padding: 10px 0;
+
+    }
+
+    .show-nav {
+        height: auto;
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .sticky .toggle-btn {
+        color: #555;
+        margin-top: 15px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        border-bottom: 0;
+    }
+
+    /*  END MOBILE NAVIGATION  */
+
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .feature-section-sub-title {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .step-box:first-child {
+        text-align: center;
+        padding-right: 0%;
+    }
+
+    .app-screen {
+        width: 40%;
+    }
+
+    .work-step div {
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+        font-size: 120%;
+    }
+
+    .work-step {
+        margin-bottom: 40px;
+    }
+
+    .footer-nav {
+        text-align: center;
+    }
+
+    .footer-nav li {
+        margin-bottom: 5px;
+    }
+
+    .social-links {
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
+}
+
+
+/* Smalls phones: from 0px to 480px */
+@media only screen and (max-width:480px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .btn-full,
+    .btn-null {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* END RESPONSIVE DESIGN */
